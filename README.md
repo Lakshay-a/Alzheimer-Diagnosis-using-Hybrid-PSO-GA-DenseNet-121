@@ -87,6 +87,36 @@ This table highlights the generalizability of the proposed Hybrid PSO-GA approac
 | PneumoniaMNIST| 91.30                      | 99.10                       |
 | Retinal OCT   | 93.70                      | 98.30                       |
 
+## Snapshots
+
+### Model Pipeline
+<img width="3104" height="2152" alt="pipeline" src="https://github.com/user-attachments/assets/23f6acbd-b79a-4839-b1a9-a9c40cb6bbf2" />
+
+This diagram illustrates the end-to-end workflow of the proposed framework, from MRI preprocessing and feature extraction with DenseNet-121 to feature optimization using PSO-GA and final classification.
+
+### ROC-AUC Curve
+![WhatsApp Image 2024-10-01 at 18 12 29](https://github.com/user-attachments/assets/a1355e47-4d64-4fa7-9887-fe1b5179c3cc)
+The ROC-AUC comparison shows that the proposed PSO-GA-enhanced DenseNet-121 model (AUC = 1.00) outperforms state-of-the-art CNN architectures such as VGG16, ResNet50, and InceptionV3.
+
+### Front-End Interface
+
+<img width="1512" alt="Screenshot 2024-10-11 at 2 22 48 AM" src="https://github.com/user-attachments/assets/a36e36ea-d8f5-4bbb-a664-24d633c696a3">
+
+<img width="1512" alt="Screenshot 2024-10-11 at 2 23 30 AM" src="https://github.com/user-attachments/assets/8a1efbd1-4dec-4e89-9e0e-9b6cf7674a45">
+
+The intuitive interface allows users to easily upload images and receive instant diagnoses.
+
+## Acknowledgements
+
+- **Dataset**: Special thanks to [ADNI](https://adni.loni.usc.edu) for providing the MRI images used for training and testing.
+- **RadImageNet**: Utilized the [RadImageNet](https://github.com/BMEII-AI/RadImageNet) database for pre-training the DenseNet-121 model.
+- **Libraries and Frameworks**: This project utilizes TensorFlow, Keras, Flask and other open-source libraries.
+
+## Authors
+
+- [Lakshay Arora](https://github.com/Lakshay-a)
+- [Aditya Vohra](https://github.com/adityavohra2003)
+
 
 
 
