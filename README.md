@@ -22,6 +22,7 @@ The system classifies brain MRI scans into three categories:
 - Alzheimer’s Disease (AD)
 - Mild Cognitive Impairment (MCI)
 - Cognitively Normal (CN)
+  
 By applying transfer learning and optimizing features with the proposed PSO-GA algorithm, the model achieved an outstanding classification accuracy of 99.78% and an F1-score of 99.15% — significantly outperforming baseline CNN models. This improvement, combined with feature reduction from 1024 → 25 features, makes the system highly accurate, efficient and clinically valuable.
 
 ## Features
