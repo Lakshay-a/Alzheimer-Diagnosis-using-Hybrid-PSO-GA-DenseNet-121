@@ -17,7 +17,12 @@
 
 ## Introduction
 
-This repository provides a complete MRI‑based CAD system for multi‑class classification of Alzheimer’s Disease (AD), Mild Cognitive Impairment (MCI) and Cognitively Normal (CN), combining transfer learning on DenseNet‑121 (pretrained on RadImageNet) with a hybrid PSO‑GA feature selection stage and classical classifiers for fast, robust inference from 2D axial slices derived from sMRI volumes. The approach targets improved accuracy and compute efficiency for early detection, leveraging medical‑domain pretraining known to outperform natural‑image pretraining on radiologic tasks.
+This project presents a computer-aided diagnosis (CAD) system for early detection of Alzheimer’s Disease (AD) and Mild Cognitive Impairment (MCI) using structural MRI scans. The framework combines deep learning (DenseNet-121 with transfer learning) and nature-inspired optimization algorithms (Particle Swarm Optimization + Genetic Algorithm hybrid, PSO-GA) to enhance accuracy while reducing computational complexity.
+The system classifies brain MRI scans into three categories:
+- Alzheimer’s Disease (AD)
+- Mild Cognitive Impairment (MCI)
+- Cognitively Normal (CN)
+By applying transfer learning and optimizing features with the proposed PSO-GA algorithm, the model achieved an outstanding classification accuracy of 99.78% and an F1-score of 99.15% — significantly outperforming baseline CNN models. This improvement, combined with feature reduction from 1024 → 25 features, makes the system highly accurate, efficient and clinically valuable.
 
 ## Features
 
